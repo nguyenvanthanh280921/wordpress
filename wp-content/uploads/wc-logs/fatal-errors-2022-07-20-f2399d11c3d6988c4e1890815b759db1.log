@@ -1,0 +1,133 @@
+2022-07-20T07:58:14+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php:45
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(356): create_fbgraph_shortcode('', '', 'fbgraph')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(fbgrap...', 'do_shortcode_ta...', '<p>N\xE1\xBB\x99i dung b...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('<p>N\xE1\xBB\x99i dung b...')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>N\xE1\xBB\x99i dung b...', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', 'N\xE1\xBB\x99i dung b\xC3\xA0i...')
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\template-parts\content\content-single.php(23): the_content()
+#7 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(772): require('C:\\xampp8.1\\htd...')
+#8 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\xampp8.1\\htd...', false, Array)
+#9 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\single.php(18): get_template_part('template-parts/...')
+#11 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp8.1\\htd...')
+#12 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#13 C:\xampp8.1\htdocs\project-wordpress\wordpress\index.php(17): require('C:\\xampp8.1\\htd...')
+#14 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php on line 45
+
+2022-07-20T07:59:35+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php:45
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(356): create_fbgraph_shortcode('', '', 'fbgraph')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(fbgrap...', 'do_shortcode_ta...', '<p>N\xE1\xBB\x99i dung b...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('<p>N\xE1\xBB\x99i dung b...')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>N\xE1\xBB\x99i dung b...', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', 'N\xE1\xBB\x99i dung b\xC3\xA0i...')
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\template-parts\content\content-single.php(23): the_content()
+#7 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(772): require('C:\\xampp8.1\\htd...')
+#8 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\xampp8.1\\htd...', false, Array)
+#9 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\single.php(18): get_template_part('template-parts/...')
+#11 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp8.1\\htd...')
+#12 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#13 C:\xampp8.1\htdocs\project-wordpress\wordpress\index.php(17): require('C:\\xampp8.1\\htd...')
+#14 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php on line 45
+
+2022-07-20T08:03:23+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php:43
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(356): create_fbgraph_shortcode('', '', 'fbgraph')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(fbgrap...', 'do_shortcode_ta...', '<p>N\xE1\xBB\x99i dung b...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('<p>N\xE1\xBB\x99i dung b...')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>N\xE1\xBB\x99i dung b...', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', 'N\xE1\xBB\x99i dung b\xC3\xA0i...')
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\template-parts\content\content-single.php(23): the_content()
+#7 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(772): require('C:\\xampp8.1\\htd...')
+#8 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\xampp8.1\\htd...', false, Array)
+#9 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\single.php(18): get_template_part('template-parts/...')
+#11 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp8.1\\htd...')
+#12 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#13 C:\xampp8.1\htdocs\project-wordpress\wordpress\index.php(17): require('C:\\xampp8.1\\htd...')
+#14 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php on line 43
+
+2022-07-20T08:03:41+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php:44
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(356): create_fbgraph_shortcode('', '', 'fbgraph')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(fbgrap...', 'do_shortcode_ta...', '<p>N\xE1\xBB\x99i dung b...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('<p>N\xE1\xBB\x99i dung b...')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>N\xE1\xBB\x99i dung b...', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', 'N\xE1\xBB\x99i dung b\xC3\xA0i...')
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\template-parts\content\content-single.php(23): the_content()
+#7 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(772): require('C:\\xampp8.1\\htd...')
+#8 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\xampp8.1\\htd...', false, Array)
+#9 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\single.php(18): get_template_part('template-parts/...')
+#11 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp8.1\\htd...')
+#12 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#13 C:\xampp8.1\htdocs\project-wordpress\wordpress\index.php(17): require('C:\\xampp8.1\\htd...')
+#14 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php on line 44
+
+2022-07-20T08:03:52+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php:43
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(356): create_fbgraph_shortcode('', '', 'fbgraph')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(fbgrap...', 'do_shortcode_ta...', '<p>N\xE1\xBB\x99i dung b...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('<p>N\xE1\xBB\x99i dung b...')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>N\xE1\xBB\x99i dung b...', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', 'N\xE1\xBB\x99i dung b\xC3\xA0i...')
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\template-parts\content\content-single.php(23): the_content()
+#7 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(772): require('C:\\xampp8.1\\htd...')
+#8 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\xampp8.1\\htd...', false, Array)
+#9 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\single.php(18): get_template_part('template-parts/...')
+#11 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp8.1\\htd...')
+#12 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#13 C:\xampp8.1\htdocs\project-wordpress\wordpress\index.php(17): require('C:\\xampp8.1\\htd...')
+#14 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php on line 43
+
+2022-07-20T08:20:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_results() in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php:86
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(356): insert_contact_info('', '', 'add_contact_tab...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(add_co...', 'do_shortcode_ta...', '<p>N\xE1\xBB\x99i dung b...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('<p>N\xE1\xBB\x99i dung b...')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>N\xE1\xBB\x99i dung b...', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', 'N\xE1\xBB\x99i dung b\xC3\xA0i...')
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\template-parts\content\content-single.php(23): the_content()
+#7 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(772): require('C:\\xampp8.1\\htd...')
+#8 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\xampp8.1\\htd...', false, Array)
+#9 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\single.php(18): get_template_part('template-parts/...')
+#11 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp8.1\\htd...')
+#12 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#13 C:\xampp8.1\htdocs\project-wordpress\wordpress\index.php(17): require('C:\\xampp8.1\\htd...')
+#14 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php on line 86
+
+2022-07-20T08:27:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_results() in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php:85
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(356): show_all_user('', '', 'all_user')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(all_us...', 'do_shortcode_ta...', '<p>N\xE1\xBB\x99i dung b...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): do_shortcode('<p>N\xE1\xBB\x99i dung b...')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>N\xE1\xBB\x99i dung b...', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', 'N\xE1\xBB\x99i dung b\xC3\xA0i...')
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\template-parts\content\content-single.php(23): the_content()
+#7 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(772): require('C:\\xampp8.1\\htd...')
+#8 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\xampp8.1\\htd...', false, Array)
+#9 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\themes\twentytwentyone\single.php(18): get_template_part('template-parts/...')
+#11 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp8.1\\htd...')
+#12 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\xampp8.1\\htd...')
+#13 C:\xampp8.1\htdocs\project-wordpress\wordpress\index.php(17): require('C:\\xampp8.1\\htd...')
+#14 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\shostcode\shortcode.php on line 85
+

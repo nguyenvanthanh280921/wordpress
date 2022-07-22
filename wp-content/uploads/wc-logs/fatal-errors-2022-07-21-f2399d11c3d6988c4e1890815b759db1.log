@@ -1,0 +1,16 @@
+2022-07-21T03:05:35+00:00 CRITICAL Cannot redeclare my_table_set_option() (previously declared in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\Book-review\example-wp-list_table.php:196) in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\demo-manager.php on line 177
+
+2022-07-21T03:05:52+00:00 CRITICAL Cannot redeclare employees_list_init() (previously declared in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\Book-review\example-wp-list_table.php:202) in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\demo-manager.php on line 177
+
+2022-07-21T03:59:22+00:00 CRITICAL Uncaught Error: Undefined constant "JESSUP_ROLE" in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\demo-manager.php:110
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\demo-manager.php(22): Jessup_List_Table->table_data()
+#1 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\demo-manager.php(407): Jessup_List_Table->prepare_items()
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\demo.php(64): include_once('C:\\xampp8.1\\htd...')
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): Demo->demo_page_content('')
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-admin\admin.php(259): do_action('demo-setting_pa...')
+#7 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\demo-manager.php on line 110
+

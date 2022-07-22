@@ -1,0 +1,10 @@
+2022-07-22T06:29:51+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\detail-manager.php:30
+Stack trace:
+#0 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\demo.php(69): include_once()
+#1 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(307): Demo->detail_content('')
+#2 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-admin\admin.php(259): do_action('demo-setting_pa...')
+#5 {main}
+  thrown in C:\xampp8.1\htdocs\project-wordpress\wordpress\wp-content\plugins\demo\manager\detail-manager.php on line 30
+
